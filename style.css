@@ -1,0 +1,50 @@
+body{
+    background: #b3ccff;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "container-left container-right";
+  }
+  
+  .left { grid-area: container-left;
+     background: #ccddff;
+     padding: 5px;
+     margin-left: 5%;
+     border: 1px solid black;
+     text-align: center;
+    }
+  
+  .right { grid-area: container-right;
+    background:#ccddff;
+    padding: 5px;
+    margin-right: 5%;
+    border: 1px solid black;
+    }
+
+    
+    
+    p{
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    li{
+        text-align: left;
+        font-size: 20px;
+        
+    }
+    
+    #zdj{
+        
+        width: 90%;
+    }
