@@ -49,8 +49,6 @@ require([
 
     const search = new Search({
       view: view,
-      index: 2,
-      container: document.createElement("div")
     });
    
 

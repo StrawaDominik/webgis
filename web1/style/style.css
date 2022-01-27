@@ -54,6 +54,7 @@
 #foot{
   height: 20%;
   width: 100%;
+  margin: 10px;
 }
 
 button:hover{
